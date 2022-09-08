@@ -1,4 +1,9 @@
 
+Krishna = [1, 2, 'K', 'R', ]
+print(Krishna[0:5])
+Krishna.append(32)
+print(Krishna)
+
 #Krishna = [1, 2, 'K', 'R', ]
 #print(Krishna[0:5])
 #Krishna.append(32)
@@ -10,6 +15,17 @@
    # for j in range(0,i+1):
                #print("*", end="")
    # print()
+
+
+class Naveen:
+     a=10 #attribute
+def display(self):
+         print(self.a)
+    
+ram=Naveen()  # object declaration
+  #object name . method name ()
+ram.display()
+    
 
 #print(5 * 2 // 3)
 #print(5 *(2 // 3))
@@ -35,11 +51,6 @@ furit=["mango","apple","orange"]
 for x in value:
   for y in furit:
     print(x, y)
-
-
-
-
-    
-    
+ 
     
      
